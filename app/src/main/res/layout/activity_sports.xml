@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spbg1"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="18dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="submit"
+                android:text="SUBMIT" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="186dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Sports Quiz"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.)In Australian football, what is the maximum number of players allowed on the field at a time?"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="36"
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="28"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:textColor="@android:color/background_dark"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="335dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:text="2.)Where can you find arnis being widely practiced?"
+                android:textColor="@android:color/background_dark"/>
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suriname"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="India"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="China"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Philippines"
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="341dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:text="3.)What player was the first to win five straight Wimbledon tennis titles?"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bjorn Borg"
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Andre Agassi"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roger Federer"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arthur Ashe"
+                    android:textColor="@android:color/background_dark"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="323dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="15dp"
+                android:text="4.)Who ran the first four-minute mile?"
+                android:textColor="@android:color/background_dark"/>
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">>
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Banastre Tarleton"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roger Ramjet"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roger Moore"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/ans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roger Bannister"
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="318dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="15dp"
+                android:text="5.)In polo, what is a period of play called?"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">>
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="set"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/ans5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="chukka"
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="quarter"
+                    android:textColor="@android:color/background_dark"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="half"
+                    android:textColor="@android:color/background_dark"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

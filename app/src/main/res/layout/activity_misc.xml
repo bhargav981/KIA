@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mibg4"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="18dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="submit"
+                android:text="SUBMIT" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="273dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Miscellaneous Quiz"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="325dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="10dp"
+                android:text="1.) July 11, every year is observed as the - "
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="World Population Day "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="World Literacy Day "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" World Heart Day "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Malala Day "
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="319dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="15dp"
+                android:text="2.) The motif of 'Hampi with Chariot' is printed on the reverse of which currency note ? "
+                android:textColor="@android:color/background_dark" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One Rupee Note "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 500 note "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 50 note "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Rs. 1000 note "
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="331dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:text="3.) 'Line of Blood' is a book written by whom? "
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Bairaj Khanna "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ursula Vernon "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Amal EI-Mohtar "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diksha Basu "
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="319dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="15dp"
+                android:text="4.)Which of the following countries has hosted the International Neutrality Conference? "
+                android:textColor="@android:color/background_dark" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">>
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="India "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sri Lanka "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/ans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Turkmenistan "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pakistan "
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="319dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="15dp"
+                android:text="5.)The new Parliament building of which of the following countries is built by India ? "
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">>
+
+                <RadioButton
+                    android:id="@+id/ans5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Afghanistan "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhutan "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nepal "
+                    android:textColor="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maldives "
+                    android:textColor="@android:color/background_dark" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
